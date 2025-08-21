@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="examplemod"
+version="${file.jarVersion}"
+displayName="Example Mod"
+description="Example mod with Curios integration"
+
+[[dependencies.examplemod]]
+modId="neoforge"
+mandatory=true
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.examplemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.examplemod]]
+modId="curios"
+mandatory=true
+versionRange="[9.5.1,)"
+ordering="AFTER"
+side="BOTH"
